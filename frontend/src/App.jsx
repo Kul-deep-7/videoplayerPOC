@@ -1,5 +1,5 @@
 import { useRef } from 'react'
-import './App.css'
+
 import VideoJS from './VideoJS'
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
       <div>
         <h1>Video Player</h1>
       </div>
-      <VideoPlayer 
+      <VideoJS
       options={videoPlayerOptions}
       onReady={handlePlayerReady}
       />
